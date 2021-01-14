@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Handlee", cursive;
+  box-sizing: border-box;
+  color: rgb(68, 61, 61);
+  font-size: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.App {
+  background-image: url("https://i.pinimg.com/originals/ec/a3/f4/eca3f4395013d14bc815ecb9a756f1d3.jpg");
+  background-repeat: repeat;
+}
+.mainContainer {
+  padding: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+  margin-right: 10px;
+  padding: 7px;
+  outline: none;
+}
+
+.add {
+  height: 38px;
+  font-weight: 600;
+  opacity: 0.9;
+  background-color: rgba(245, 170, 170, 0.377);
+  box-shadow: 1px 10px 41px 12px rgba(229, 94, 94, 0.55);
+  -webkit-box-shadow: 1px 10px 41px 12px rgba(229, 94, 94, 0.55);
+  -moz-box-shadow: 1px 10px 41px 12px rgba(229, 94, 94, 0.55);
+  color: #363233;
+  margin-left: 20px;
+}
+
+.filterInput {
+  font-weight: 700;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+button {
+  height: 25px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+li {
+  margin-right: 5px;
+  background-color: rgb(226, 250, 226);
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+.oneTask {
+  display: flex;
+  margin-top: 20px;
+  /* align-content: center; */
+  /* padding: 0 200px; */
+}
+h1 {
+  color: rgba(7, 10, 189, 0.959);
+  font-size: 40px;
+  opacity: 0.7;
+  border-radius: 20px;
+  width: 300px;
+  text-shadow: 2px 2px 8px #c01e46;
+  font-weight: 700;
+}
+
+.activity {
+  margin-bottom: 20px;
+}
+
+.delete {
+  height: 30px;
+  font-size: 13px;
+}
+.done {
+  background-color: rgb(110, 202, 110);
+  height: 30px;
+  font-size: 13px;
+}
+.taskContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
